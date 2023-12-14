@@ -18,12 +18,21 @@ So forgive the poor code and stuff... it just shows a working example of a conce
 3. Enable "Developer mode" in the top right corner.
 4. Click on "Load unpacked" and select the directory where you downloaded or cloned this repository.
 
+## Configuration
+You need to have an OpenAI API Key to use for this.
+After installation:
+1. Open the extension popup, clicking on the extension icon (near the URL address bar)
+2. In the API Endpoint, insert: https://api.openai.com/v1/chat/completions
+3. In the API Key, insert your OpenAI key.
+4. Click Save
+I decided to leave the endpoint as a configuration parameter in order to update it in case newer versions come (v1, v2, etc).
+
 ## Usage
 
 1. After installation, or each reload, make sure that the plugin is active.
-2. Navigate to the Anvil.works code editor. Refresh (F5) the page after each plugin reload (if you change code).
-3. Start typing your code.
-4. When you need a code completion suggestion, end your current line of code with a question mark (?) and wait.
+3. Navigate to the Anvil.works code editor. Refresh (F5) the page after each plugin reload (if you change code).
+4. Start typing your code.
+5. When you need a code completion suggestion, end your current line of code with a question mark (?) and wait.
 
 ## How to check it's active
 If installation is correct, when you're inside Anvil code editor, open the Chrome console.
