@@ -20,13 +20,18 @@ So forgive the poor code and stuff... it just shows a working example of a conce
 
 ## Usage
 
-1. Navigate to the Anvil.works code editor.
-2. Start typing your code.
-3. When you need a code completion suggestion, use the extension to get a suggestion from the OpenAI API.
+1. After installation, or each reload, make sure that the plugin is active.
+2. Navigate to the Anvil.works code editor. Refresh (F5) the page after each plugin reload (if you change code).
+3. Start typing your code.
+4. When you need a code completion suggestion, end your current line of code with a question mark (?) and wait.
+
+## How to check it's active
+If installation is correct, when you're inside Anvil code editor, open the Chrome console.
+You should see a "--- monitoring ---" bunch of console.logs every 5 secs.
 
 ## Configuration
 
-You need to set your OpenAI API key and endpoint in the extension's options page for it to work.
+You need to set your OpenAI API key and endpoint in the extension's options page for it to work. Just click on the extension icon near the URL address bar to access the pop-up.
 
 ## Contributing
 
