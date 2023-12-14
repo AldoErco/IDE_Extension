@@ -1,0 +1,37 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>IDE Helper</title>
+  <style>
+    body {
+      width: 300px;
+      height: 200px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <h1>IDE Helper</h1>
+  <p>This extension helps you with your coding in the web-based IDE.</p>
+  <p>Just end your code line with "?" and wait 5 seconds...</p>
+  <p>...the ChatGPT completion will be appended.</p>
+  <h2>Settings</h2>
+  <p>Please insert here your OpenAI API url and key</p>
+  <form id="api-keys-form">
+    <label for="api-endpoint">API Endpoint:</label><br>
+    <input type="text" id="api-endpoint" name="api-endpoint" value="https://api.openai.com/v1/chat/completions"><br>
+    <br>&nbsp;
+    <label for="api-key">API Key:</label><br>
+    <input type="text" id="api-key" name="api-key"><br>
+    <br>&nbsp;
+    <input type="submit" value="Save">
+    <br>&nbsp;
+  </form>
+</body>
+
+</html>
